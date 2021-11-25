@@ -3,7 +3,7 @@
     <!-- 時鐘 -->
     <div v-for="(item, index) in dates" :key="index" class="box">
       <!-- <ComponentsClock> -->
-      <!-- {{item}} -->
+      {{ item.city }}
       <Clock :dates="item" />
     </div>
     <!-- 墊子時鐘 -->
